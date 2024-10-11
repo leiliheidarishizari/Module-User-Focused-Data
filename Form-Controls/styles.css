@@ -47,10 +47,6 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-/* Hover effect for submit button */
-input[type="submit"]:hover {
-    background-color: green;
-}
 
 /* Add some padding to inputs to avoid crowding */
 input, select {
