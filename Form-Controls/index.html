@@ -23,16 +23,17 @@
       <input type="email" name="email" id="email" required>
     </div>
     <div>
-      <label for="t-shirtColor">T-shirt Color</label>
-      <select name="t-shirtColor" id="t-shirtColor">
+      <label for="t-shirtColor">Choose T-shirt Color</label>
+      <select name="t-shirtColor" id="t-shirtColor" required>
         <option value="Blue">Blue</option>
         <option value="Black">Black</option>
         <option value="Purple">Purple</option>
       </select>
     </div>
     <div>
-      <lable for="t-shirtSize">T-shirt Size</lable>
-      <select name="t-shirtSize" id="t-shirtSize">
+      <lable for="t-shirtSize">Choose T-shirt Size</lable>
+      <select name="t-shirtSize" id="t-shirtSize" required>
+        <option value="">-- Select a Size --</option>
         <option value="XS">XS</option>
         <option value="S">S</option>
         <option value="M">M</option>
@@ -42,8 +43,11 @@
       </select>
     </div>
     <div>
-       <lable for="date">Delivery Date</lable>
+       <lable for="date">Choose Delivery Date:</lable>
        <input type="date" name="date" id="date" min="31/10/2024" max="31/11/2024" required>
+    </div>
+    <div>
+      <input type="submit" value="Submit">
     </div>
   </form>
   </main>
