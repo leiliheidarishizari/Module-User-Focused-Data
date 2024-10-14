@@ -15,8 +15,8 @@
   <main>
   <form action="results.html" method="get">
     <div>
-     <lable for="name">Name</lable>
-     <input type="text" name=" name" id="name" required> 
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name" pattern="[A-Za-z\s]+" minlength="2" required> 
     </div>
     <div>
       <label for="email">Email</label>
@@ -31,7 +31,7 @@
       </select>
     </div>
     <div>
-      <lable for="t-shirtSize">Choose T-shirt Size</lable>
+      <label for="t-shirtSize">Choose T-shirt Size</label>
       <select name="t-shirtSize" id="t-shirtSize" required>
         <option value="">-- Select a Size --</option>
         <option value="XS">XS</option>
@@ -43,7 +43,7 @@
       </select>
     </div>
     <div>
-       <lable for="date">Choose Delivery Date:</lable>
+       <label for="date">Choose Delivery Date:</label>
        <input type="date" name="date" id="date" min="31/10/2024" max="31/11/2024" required>
     </div>
     <div>

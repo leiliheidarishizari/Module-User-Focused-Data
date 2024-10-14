@@ -60,7 +60,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, s
 }
 
 /* Responsive styling */
-@media (max-width: 600px) {
+@media (max-width: 600px) {}
     form {
         width: 100%;
         padding: 15px;
